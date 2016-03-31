@@ -1,3 +1,9 @@
+* {
+
+    text-decoration: none;
+    list-style: none;
+}
+
 html {
     background: url("image/coffee-shop.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -80,4 +86,28 @@ footer {
 
 footer p {
     padding-top:20px;
+}
+
+main{
+    font-family: 'Architects Daughter', cursive;
+    margin-top: 60px;
+}
+
+main p{
+    margin-left: 70px;
+}
+#coffee div {
+    display: inline-block;
+    margin-left: 70px;
+}
+
+#coffee div img {
+    border: thin;
+}
+
+#map div img {
+    border: thin;
+    max-height: 50%;
+    max-width: 50%;
+    margin-left: 40px;
 }
